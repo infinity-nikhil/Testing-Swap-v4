@@ -84,3 +84,22 @@ hooks = address(0)
 ### Nobody can meaningfully swap MPK ↔ MTK yet because we haven't put MPK and MTK into the pool.
 
 ## That's our next step: adding liquidity.
+But before we begin if you have done everything correctly till now you might think ok we initialized the pool it might not have the liquidity for now but where is the address of our pool ?? the pool key isn't it supposed to be an address ?? Through which we point in the pool manager saying that look mf this is my pool. 
+
+That's where the catch is in v4 we don't have particular address for a particular pool. There is a single pool i.e. pool manager that has an address inside that every pool lives with or without liquiduty. 
+
+Then if not the address then what is the pool key ??
+
+--->it potenially looks something like: 
+PoolKey({
+    currency0: MPK,
+    currency1: MTK,
+    fee: 3000,
+    tickSpacing: 60,
+    hooks: address(0)
+});
+
+### Now on to the topic i.e. adding liquidity 
+Ok folks so it seems like i have to put some good amount of effort in adding liquidity to our tokens 
+cause it's complex and not easy as addLiquidity(tokenA, tokenB, amountA,amountB);
+So will be seeing you when i finally have done enough research about this thing that is it for now.
