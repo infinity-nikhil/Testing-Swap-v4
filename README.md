@@ -103,3 +103,10 @@ PoolKey({
 So, i have am done being researching about the adding liquidity feature and tbh it is complex 
 It's like things are happening but don't know how ??
 You will also have to take some good amount of time learning the inital concepts .... for know you can read the code base and try to understand whatever i have wrote .........
+
+### Now i have just deployed the contract with the Miniswap logic with it 
+forge create src/Miniswap.sol:Miniswap \
+  --rpc-url https://ethereum-sepolia-rpc.publicnode.com \
+  --private-key 0xXYZZZZZYZYZY \
+  --broadcast \
+  --constructor-args 0xE03A1074c86CFeDd5C142C4F04F1a1536e203543
