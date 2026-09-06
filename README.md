@@ -100,6 +100,6 @@ PoolKey({
 });
 
 ### Now on to the topic i.e. adding liquidity 
-Ok folks so it seems like i have to put some good amount of effort in adding liquidity to our tokens 
-cause it's complex and not easy as addLiquidity(tokenA, tokenB, amountA,amountB);
-So will be seeing you when i finally have done enough research about this thing that is it for now.
+So, i have am done being researching about the adding liquidity feature and tbh it is complex 
+It's like things are happening but don't know how ??
+You will also have to take some good amount of time learning the inital concepts .... for know you can read the code base and try to understand whatever i have wrote .........
